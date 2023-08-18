@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#hero {
+  width: 100vw;
+  background-image: url("https://images.unsplash.com/photo-1689656966481-043a970b7c76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#hero-heading {
+    
+    font-size: 45px;
+    padding-top: 100px;
+    /* text shadow - for glowing purpose */
+    text-shadow: 3px 3px 10px white;
+
+}
+#hero-text {
+    font-size: 22px;
+    padding-top: 10px; ;
+    padding-bottom: 20px;
+
+}
+#submit-btn {
+    background-color: orange;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 10px;
+
+}
+/* single colon - pseudo-element selector */
+/* we can add any changes that we want when it is hovered */
+#submit-btn:hover {
+    background-color: rgba(239, 141, 30, 0.943);
+    cursor: pointer;
+}
